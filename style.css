@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 25%;
+    transition: transform 0.3s ease-in;
+    background-color: rgb(128, 124, 124);
+}
+.sidebar nav{
+    padding: 34px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 42px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+}
+.main{
+    padding: 23px;
+  width: 90vw;
+}
+.infocontainer{
+    /* background-color: yellow; */
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.more{
+    font-weight: bold;
+}
+.devpic img{
+    height: 50vh;
+    
+}
+.btn button{
+    padding: 12px 12px ;
+    border-radius: 20px;
+    background-color: rgb(41, 127, 164);
+    border: black solid 3px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: rgb(163, 204, 249);
+}
+.contacts{
+     margin: 90px auto;
+}
+.contacts h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 140px;
+    padding: 0 34px;
+}
+.contacts form{
+    padding: 10px 0;
+    flex-direction: column;
+    display: flex;
+}
+.form input{
+    margin-top: 14px;
+    padding: 8px;
+}
+.emailcl{
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 6px;
+    
+}
+
+.phonecl{
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 6px;
+    
+}
+.terms{
+    font-size: 20px;
+    
+}
+.contacts .phonecl{
+    margin: 17px 77px;
+}
+.btn1{
+    border-radius: 15px;
+    padding: 11px 23px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(24, 122, 168);
+}
+
+.btn1:hover{
+    background: rgb(150, 176, 193);
+}
+.blogitem{
+    margin: 20px;
+}
+.blogitem h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+ h1{
+    font-family: 'Raleway', sans-serif;
+    margin: 22px;
+}
+p{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+.intro h2{
+    font-family: 'Raleway', sans-serif;
+    margin: 22px;
+    
+}
+.intro p{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    
+}
+.skillcontainer {
+    padding: 12px;
+}
+.skillsitem{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+.skills{
+    width: 270px;
+    height: 3px;
+    background-color: red;
+    margin: 8px;
+}
+.hundered{
+    width: 234px;
+    background-color: green;
+}
+.eighty{
+    width: 201px;
+    background-color: rgb(194, 208, 102);
+}
+
+.fifty{
+    width: 160px;
+    background-color: rgb(121, 38, 142);
+}
+
+.fourty{
+    background-color: aqua;
+    width: 100px;
+}
+
+.twenty{
+    background-color: black;
+    width: 50px;
+}
+.sidebarGo{
+    position: absolute;
+    transform: translate(-400px, 0);
+
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.fa-sharp{
+    top: 0;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 180px;
+}
